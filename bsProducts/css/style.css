@@ -7,6 +7,7 @@ body {
   padding-top: 100px;
   --key-color: #8e44ad;
   --sub-color: #8e44ad;
+  scroll-behavior: smooth;
 }
 
 ul {
@@ -20,6 +21,10 @@ ul {
   -webkit-line-clamp: 7;
   overflow: hidden;
   text-align: justify;
+}
+
+.topics .col-lg-4 {
+  scroll-margin-top: 50vw;
 }
 
 .btn-primary {
